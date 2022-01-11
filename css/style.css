@@ -6,7 +6,7 @@ body {
     font-family: Roboto;
 }
 .container {
-    max-width: 1196px;
+    max-width: 962px;
     margin: auto;
 }
 .header {
@@ -68,10 +68,16 @@ body {
     font-weight: normal;
     padding: 0;
 }
+.restaurants-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .restauran-card {
     width: 306px;
     height: 100%;
     overflow: hidden;
+    margin-bottom: 16px;
 }
 .restauran-card:hover {
     background-color: rgba(46, 46, 46, 0.04);
