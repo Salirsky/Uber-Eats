@@ -68,4 +68,44 @@ body {
     font-weight: normal;
     padding: 0;
 }
+.restauran-card {
+    width: 306px;
+    height: 100%;
+    overflow: hidden;
+}
+.restauran-card:hover {
+    background-color: rgba(46, 46, 46, 0.04);
+}
+.restauran-img {
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.restaurant-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin: 0 0 4px 0;
+}
+.restaurant-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin: 0 0 4px 0;
+}
+.restaurant-time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin: 0 0 20px 0;
+}
+
 
