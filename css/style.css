@@ -58,6 +58,7 @@ body {
 }
 .restaurants {
     margin-top: 56px;
+    margin-bottom: 80px;
 }
 .restaurants-h2 {
     color: #1D1D1D;
@@ -113,5 +114,16 @@ body {
     color: #1D1D1D;
     margin: 0 0 20px 0;
 }
-
+.footer {
+    background-color: #262626;
+}
+.white-logo {
+    display: block;
+    padding: 56px 0 40px 0;
+}
+#line {
+    width: 956px;
+    height: 1px;
+    background-color: #979797;
+}
 
