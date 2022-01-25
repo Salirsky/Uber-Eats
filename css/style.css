@@ -141,7 +141,20 @@ body {
     width: 227px;
     height: 40px;
     background-color: #3B3B3B;
+    background-image: url(/img/footer/world-arrow.svg);
+    background-position: 16px 50%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding-left: 48px;
+    border-radius: 2px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none !important;
+    position: relative;
 }
+
 .uber-eats {
     color: #FFFFFF;
     font-family: Roboto;
