@@ -121,6 +121,10 @@ body {
 .footer {
     background-color: #262626;
 }
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+}
 .white-logo {
     display: block;
     padding: 56px 0 40px 0;
@@ -145,7 +149,40 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    margin-bottom: 17px;
 }
 .green-text {
     color:#49A144;
+}
+.footer-social {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.footer-social_item {
+    margin-right: 12px;
+}
+.footer-item {
+    padding-bottom: 48px;
+}
+.footer-list {
+    list-style-type: none;
+    /* line-height: 46px; */
+}
+.footer-list_item {
+    margin-bottom: 23px;
+}
+.footer-list_link {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+
+}
+
+.line-2 {
+    margin-bottom: 41px;
 }
