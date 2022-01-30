@@ -76,7 +76,7 @@ body {
     flex-wrap: wrap;
 }
 .restauran-card {
-    width: 306px;
+    width: 306px; 
     height: 100%;
     overflow: hidden;
     margin-bottom: 16px;
@@ -202,7 +202,7 @@ body {
 }
 .footer-bottom_list {
     display: flex;  
-    justify-content: space-between;
+    /* justify-content: space-between; */
     list-style-type: none;
     padding: 0 0 40px 0;
 }
