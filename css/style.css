@@ -6,9 +6,12 @@ body {
     font-family: Roboto;
 }
 .container {
-    max-width: 962px;
+    max-width: 972px;
     margin: auto;
 }
+/* .col-xl-4 {
+    padding: 0;
+} */
 .header {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -49,13 +52,13 @@ body {
     background-color: transparent;
     border: none;
     width: 100%;
-    padding-bottom: 2px;
-    margin-top: 56px;
     border-bottom: 1px solid #979797;
     font-size: 16px;
     line-height: 24px;
     color: #626262;
     outline: none;
+    padding: 0 5px 2px 5px;
+    margin-top: 56px;
 }
 .restaurants {
     margin-top: 56px;
@@ -68,21 +71,28 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    padding: 0;
+    padding: 0 0 0 5px;
 }
 .restaurants-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* margin: 0 -8px 0 -8px; */
 }
 .restauran-card {
-    width: 306px; 
+    width: 308px; 
     height: 100%;
     overflow: hidden;
+    transition: .3s ease all;
     margin-bottom: 16px;
+    /* padding: 0; */
+    /* margin: 0 8px 16px 8px; */
 }
 .restauran-card:hover {
     background-color: rgba(46, 46, 46, 0.04);
+    padding: 0 -8px 16px -8px;
+    transition: .3s ease all;
+    /* margin: 0 -8px 0 -8px; */
 }
 .restauran-img {
     max-width: 100%;
@@ -118,21 +128,24 @@ body {
 .footer {
     background-color: #262626;
 }
+
+.white-logo {
+    display: block;
+    padding: 56px 0 40px 10px;
+}
+#line {
+    width: 946px;
+    height: 1px;
+    background-color: #979797;
+    margin-left: 10px;
+}
 .footer-items {
     display: flex;
     justify-content: space-between;
+    margin-top: 32px;
 }
-.white-logo {
-    display: block;
-    padding: 56px 0 40px 0;
-}
-#line {
-    width: 956px;
-    height: 1px;
-    background-color: #979797;
-}
-.line-1 {
-    margin-bottom: 32px;
+.footer-item {
+    padding-bottom: 25px;
 }
 .form-select {
     width: 227px;
@@ -171,11 +184,9 @@ body {
 .footer-social_item {
     margin-right: 12px;
 }
-.footer-item {
-    padding-bottom: 25px;
-}
 .footer-list {
     list-style-type: none;
+    padding-inline-start: 0px;
     /* line-height: 46px; */
 }
 .footer-list_item {
@@ -215,3 +226,4 @@ body {
     line-height: 13px;
     text-decoration: none;
 }
+
