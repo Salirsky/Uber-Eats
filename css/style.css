@@ -245,7 +245,7 @@ body {
     height: 80px;
     background-color: #59BD5A;
     border-radius: 2px;
-    background-image: url(/img/footer/arrow-up.svg);
+    background-image: url(../img/footer/arrow-up.svg);
     background-repeat: no-repeat;
     background-position: center center;
     border: none; 
