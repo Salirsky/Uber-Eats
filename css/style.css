@@ -275,7 +275,7 @@ body {
     } 
     .form-select {
         background-image: url(../img/footer/world-arrow-xs.svg);
-        padding-right: 74px;
+        padding-right: 60px;
     }   
 }
 @media (max-width: 575px) {
