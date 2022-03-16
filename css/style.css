@@ -9,9 +9,6 @@ body {
     max-width: 972px;
     margin: auto;
 }
-/* .col-xl-4 {
-    padding: 0;
-} */
 .header {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -77,22 +74,20 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* margin: 0 -8px 0 -8px; */
 }
 .restauran-card {
-    /* width: 308px;  */
     height: 100%;
     overflow: hidden;
     transition: .3s ease all;
     margin-bottom: 16px;
-    /* padding: 0; */
-    /* margin: 0 8px 16px 8px; */
 }
 .restauran-card:hover {
     background-color: rgba(46, 46, 46, 0.04);
     padding: 0 -8px 16px -8px;
     transition: .3s ease all;
-    /* margin: 0 -8px 0 -8px; */
+}
+.restauran-card_link {
+    text-decoration: none;
 }
 .restauran-img {
     max-width: 100%;
@@ -148,7 +143,6 @@ body {
     padding-bottom: 25px;
 }
 .form-select {
-    /* width: 227px; */
     height: 40px;
     background-color: #3B3B3B;
     background-image: url(../img/footer/world-arrow.svg);
@@ -191,7 +185,6 @@ body {
 .footer-list {
     list-style-type: none;
     padding-inline-start: 0px;
-    /* line-height: 46px; */
 }
 .footer-list_item {
     margin-bottom: 23px;
@@ -206,9 +199,6 @@ body {
     text-decoration: none;
 
 }
-/* .line-2 {
-    margin-bottom: 41px;
-} */
 .footer-applications {
     display: flex;
     justify-content: center;
@@ -220,7 +210,6 @@ body {
 }
 .footer-bottom_list {
     display: flex;  
-    /* justify-content: space-between; */
     list-style-type: none;
     padding: 16px 0 40px 0;
     margin: 0;
@@ -284,7 +273,6 @@ body {
     }
     .footer-items {
         flex-direction: column;
-        /* margin-top: 32px; */
     }
     .footer-item {
         padding-bottom: 0px;
