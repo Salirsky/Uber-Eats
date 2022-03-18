@@ -57,29 +57,29 @@ body {
     padding: 0 5px 2px 5px;
     margin-top: 56px;
 }
-.main-cover {
+.page-main {
     height: 364px; 
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    
+    background-image: url(../img/Pushkin/main.png);
+    background-position: 50%;  
+    background-repeat: no-repeat;     
 }
 .main-img_background {
     object-fit: cover;
     display: block;
     width: 100%;
-    height: 100%;
-    /* background-image: url(../img/Pushkin/main.png); */
-    
+    height: 100%; 
+}
+.main-cover {
+    height: 364px; 
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 .main-title {
     position: absolute;
     display: block;
     padding: 38px 38px 46px 38px;
     background-color: #FFF;
-    /* top: 80px; */
-    left: 81px;
     border-radius: 2px;
 }
 .main-title_name {
