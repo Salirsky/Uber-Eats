@@ -133,6 +133,37 @@ body {
     padding-right: 40px;
     list-style-type: none;    
 }
+.snacks {
+    padding-top: 56px;
+    padding-bottom: 80px;
+}
+.snacks-title {
+    color: #1D1D1D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 0;
+    margin-bottom: 32px;
+}
+.snacks-card {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    border-radius: 2px;
+    border: 2px solid #D8D8D8;
+}
+.snacks-card_text {
+    padding: 16px;
+}
+
+
+
+
+
+
+
 .restaurants {
     margin-top: 56px;
     margin-bottom: 80px;
