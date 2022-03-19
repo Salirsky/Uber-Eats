@@ -123,6 +123,9 @@ body {
     padding: 8px 16px;
     margin: 0;
 }
+/* .page-menu {
+    border: 0.5px solid #D8D8D8;
+} */
 .menu {
     display: flex;
     margin-top: 30px;
@@ -132,6 +135,10 @@ body {
 .menu-item {
     padding-right: 40px;
     list-style-type: none;    
+}
+.line-menu {
+    height: 0.3px;
+    background-color: #D8D8D8;
 }
 .snacks {
     /* padding-top: 56px;
@@ -171,11 +178,12 @@ body {
     transition: .3s ease all;
     background: #fafafa;
 }
-/* .snacks-card_description .snacks-card:hover {
-    transition: .3s ease all;
-} */
 .snacks-card_text {
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 .snacks-card_title {
     font-family: 'Roboto';
@@ -184,6 +192,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #1D1D1D;
+    margin: 0;
 }
 .snacks-card_description {
     font-family: 'Roboto';
@@ -192,6 +201,8 @@ body {
     font-size: 13px;
     line-height: 21px;
     color: #626262;
+    margin: 0;
+    padding-bottom: 50px;
 }
 .snacks-card_price {
     font-family: 'Roboto';
@@ -200,6 +211,7 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: #1D1D1D;
+    margin: 0;
 }
 .snacks-card_img {
     height: 160px;
