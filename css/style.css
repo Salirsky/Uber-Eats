@@ -136,10 +136,7 @@ body {
 .snacks {
     /* padding-top: 56px;
     padding-bottom: 80px; */
-    padding: 56px 0 80px 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    padding: 56px 0 31px 0;
 }
 .snacks-title {
     color: #1D1D1D;
@@ -152,6 +149,11 @@ body {
     margin-bottom: 32px;
     margin-left: 10px;
 }
+.snacks-cover {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .snacks-card {
     display: flex;
     justify-content: space-between;
@@ -160,7 +162,11 @@ body {
     border: 1px solid #D8D8D8;
     transition: .3s ease all;
     background-color: transparent;
+    margin-bottom: 49px;
 }
+/* .snacks-card:last-child {
+    margin-bottom: 0;
+} */
 .snacks-card:hover {
     transition: .3s ease all;
     background: #fafafa;
@@ -172,8 +178,8 @@ body {
     padding: 16px;
 }
 .snacks-card_img {
-    /* height: 160px;
-    width: 170px; */
+    height: 160px;
+    width: 170px;
 }
 
 
