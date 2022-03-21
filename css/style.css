@@ -122,9 +122,6 @@ body {
   padding: 8px 16px;
   margin: 0;
 }
-/* .page-menu {
-    border: 0.5px solid #D8D8D8;
-} */
 .menu {
   display: flex;
   margin-top: 30px;
@@ -152,8 +149,6 @@ body {
   background-color: #d8d8d8;
 }
 .snacks {
-  /* padding-top: 56px;
-    padding-bottom: 80px; */
   padding: 56px 0 31px 0;
 }
 .snacks-title,
@@ -180,7 +175,6 @@ body {
 .snacks-card {
   display: flex;
   justify-content: space-between;
-  /* flex-basis: 50%; */
   border-radius: 2px;
   border: 1px solid #d8d8d8;
   transition: 0.3s ease all;
@@ -434,6 +428,9 @@ body {
 .list-link:hover {
   transition: 0.3s ease all;
   color: #59bd5a;
+}
+.hideText {
+  display: none;
 }
 
 @media (max-width: 991px) {
