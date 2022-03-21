@@ -134,6 +134,18 @@ body {
 .menu-item {
   padding-right: 40px;
   list-style-type: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  transition: 0.3s ease all;
+}
+.menu-item:hover {
+  color: #327430;
+  transition: 0.3s ease all;
+  cursor: pointer;
 }
 .line-menu {
   height: 0.3px;
@@ -144,7 +156,12 @@ body {
     padding-bottom: 80px; */
   padding: 56px 0 31px 0;
 }
-.snacks-title {
+.snacks-title,
+.salad-title,
+.soup-title,
+.hotdish-title,
+.garnish-title,
+.dessert-title {
   color: #1d1d1d;
   font-family: "Roboto";
   font-style: normal;
@@ -320,6 +337,7 @@ body {
   -ms-appearance: none;
   appearance: none !important;
   outline: none;
+  cursor: pointer;
 }
 .form-select_item {
   padding: 5px;
