@@ -129,8 +129,13 @@ body {
   padding-left: 0;
 }
 .menu-item {
-  padding-right: 40px;
   list-style-type: none;
+  }
+
+.menu-item_btn {
+  background-color: transparent;
+  border: none;
+  padding-right: 40px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -139,7 +144,7 @@ body {
   color: #626262;
   transition: 0.3s ease all;
 }
-.menu-item:hover {
+.menu-item_btn:hover {
   color: #327430;
   transition: 0.3s ease all;
   cursor: pointer;
@@ -148,9 +153,15 @@ body {
   height: 0.3px;
   background-color: #d8d8d8;
 }
-.snacks {
+.snacks,
+.salad,
+.soup,
+.hotdish,
+.garnish,
+.dessert {
   padding: 56px 0 31px 0;
 }
+
 .snacks-title,
 .salad-title,
 .soup-title,
