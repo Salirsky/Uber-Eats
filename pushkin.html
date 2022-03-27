@@ -44,17 +44,29 @@
    <section class="page-menu">
         <div class="container">
             <ul class="menu">
-                <li class="menu-item" id="item_snacks">Закуски</li>
-                <li class="menu-item" id="item_salad">Салаты</li>
-                <li class="menu-item" id="item_soup">Супы</li>
-                <li class="menu-item" id="item_hotdish">Горячие блюда</li>
-                <li class="menu-item" id="item_garnish">Гарниры</li>
-                <li class="menu-item" id="item_dessert">Десерты</li>
+                <li class="menu-item" >
+                    <button data-tabs-handler="snacks" class="menu-item_btn" id="item_snacks">Закуски</button>
+                </li>
+                <li class="menu-item" >
+                    <button data-tabs-handler="salad" class="menu-item_btn" id="item_salad">Салаты</button>
+                </li>
+                <li class="menu-item" >
+                    <button data-tabs-handler="soup" class="menu-item_btn" id="item_soup">Супы</button>
+                </li>
+                <li class="menu-item" >
+                    <button data-tabs-handler="hotdish" class="menu-item_btn" id="item_hotdish">Горячие блюда</button>
+                </li>
+                <li class="menu-item" >
+                    <button data-tabs-handler="garnish" class="menu-item_btn" id="item_garnish">Гарниры</button>
+                </li>
+                <li class="menu-item" >
+                    <button data-tabs-handler="dessert" class="menu-item_btn" id="item_dessert">Десерты</button>
+                </li>
             </ul>
             <div id="line" class="line-menu col-xl-12 col-xs-12"></div>
         </div>
    </section>
-   <section class="snacks container" id="snacks" class="hideText">
+   <section data-tabs-field="snacks" class="snacks container menu-content" id="snacks">
         <h3 class="snacks-title">Закуски</h3>
         <div class="snacks-cover">
             <div class="snacks-card-cover col-md-6 col-sm-12">
@@ -120,23 +132,23 @@
         </div>
    </section>
 
-    <section class="salad container" id="salad" class="hideText">
+    <section data-tabs-field="salad" class="salad container menu-content" id="salad">
     <h3 class="salad-title">Салаты</h3>
     </section> 
 
-    <section class="soup container" id="soup" class="hideText">
+    <section data-tabs-field="soup" class="soup container menu-content" id="soup">
     <h3 class="soup-title">Супы</h3>
     </section>
 
-    <section class="hotdish container" id="hotdish" class="hideText">
+    <section data-tabs-field="hotdish" class="hotdish container menu-content" id="hotdish">
     <h3 class="hotdish-title">Горячие блюда</h3>
     </section>
 
-    <section class="garnish container" id="garnish" class="hideText">
+    <section data-tabs-field="garnish" class="garnish container menu-content" id="garnish">
     <h3 class="garnish-title">Гарниры</h3>
     </section> 
                 
-    <section class="dessert container" id="dessert" class="hideText">
+    <section data-tabs-field="dessert" class="dessert container menu-content" id="dessert">
     <h3 class="dessert-title">Десерты</h3>
     </section> 
 
