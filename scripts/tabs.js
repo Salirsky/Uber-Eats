@@ -1,6 +1,5 @@
 const tabButtons = document.querySelectorAll(".menu-item_btn");
 const tabDescriptions = document.querySelectorAll(".menu-content");
-// const tabImages = document.querySelectorAll(".design-images");
 const changeContent = (array, value) => {
   array.forEach((elem) => {
     if (elem.dataset.tabsField === value) {
