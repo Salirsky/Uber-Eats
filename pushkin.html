@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/tabs.js" defer ></script>
     <title>Pushkin</title>
 </head>
 <body>
@@ -66,7 +67,7 @@
             <div id="line" class="line-menu col-xl-12 col-xs-12"></div>
         </div>
    </section>
-   <section class="snacks container" id="snacks" class="hideText">
+   <section data-tabs-field="snacks" class="snacks container menu-content" id="snacks">
         <h3 class="snacks-title">Закуски</h3>
         <div class="snacks-cover">
             <div class="snacks-card-cover col-md-6 col-sm-12">
@@ -132,23 +133,23 @@
         </div>
    </section>
 
-    <section class="salad container" id="salad" class="hideText">
+    <section data-tabs-field="salad" class="salad container menu-content" id="salad">
     <h3 class="salad-title">Салаты</h3>
     </section> 
 
-    <section class="soup container" id="soup" class="hideText">
+    <section data-tabs-field="soup" class="soup container menu-content" id="soup">
     <h3 class="soup-title">Супы</h3>
     </section>
 
-    <section class="hotdish container" id="hotdish" class="hideText">
+    <section data-tabs-field="hotdish" class="hotdish container menu-content" id="hotdish">
     <h3 class="hotdish-title">Горячие блюда</h3>
     </section>
 
-    <section class="garnish container" id="garnish" class="hideText">
+    <section data-tabs-field="garnish" class="garnish container menu-content" id="garnish">
     <h3 class="garnish-title">Гарниры</h3>
     </section> 
                 
-    <section class="dessert container" id="dessert" class="hideText">
+    <section data-tabs-field="dessert" class="dessert container menu-content" id="dessert">
     <h3 class="dessert-title">Десерты</h3>
     </section> 
 
@@ -248,56 +249,5 @@
     <!-- /.container -->
     
    </footer>
-
-   <script>
-    item_snacks.onclick = function(){
-    snacks.classList.toggle('hideText') ; 
-    hotdish.classList.add ('hideText');
-    soup.classList.add ('hideText'); 
-    salad.classList.add ('hideText'); 
-    garnish.classList.add ('hideText');
-    dessert.classList.add ('hideText'); 
-   }
-    item_salad.onclick = function(){
-    salad.classList.toggle('hideText');
-    snacks.classList.add ('hideText') ;  
-    soup.classList.add ('hideText'); 
-    hotdish.classList.add ('hideText'); 
-    garnish.classList.add ('hideText');
-    dessert.classList.add ('hideText');
-   }
-    item_soup.onclick = function(){
-    soup.classList.toggle('hideText');
-    snacks.classList.add('hideText') ; 
-    hotdish.classList.add ('hideText');
-    salad.classList.add ('hideText'); 
-    garnish.classList.add ('hideText');
-    dessert.classList.add ('hideText');    }
-  
-    item_hotdish.onclick = function(){
-    hotdish.classList.toggle('hideText');
-    snacks.classList.add('hideText') ; 
-    soup.classList.add ('hideText');
-    dessert.classList.add ('hideText'); 
-    salad.classList.add ('hideText');
-    garnish.classList.add ('hideText');}
-  
-    item_garnish.onclick = function(){
-    garnish.classList.toggle('hideText');
-    snacks.classList.add ('hideText');
-    soup.classList.add ('hideText'); 
-    hotdish.classList.add ('hideText'); 
-    salad.classList.add ('hideText');
-    dessert.classList.add ('hideText'); }
-  
-    item_dessert.onclick = function(){
-    dessert.classList.toggle('hideText');
-    snacks.classList.add('hideText') ; 
-    soup.classList.add ('hideText');
-    hotdish.classList.add ('hideText'); 
-    salad.classList.add ('hideText');
-    garnish.classList.add ('hideText');}
-    </script>
-
 </body>
 </html>
