@@ -1,3 +1,5 @@
+'use strict';
+
 const tabButtons = document.querySelectorAll(".menu-item_btn");
 const tabDescriptions = document.querySelectorAll(".menu-content");
 const changeContent = (array, value) => {
