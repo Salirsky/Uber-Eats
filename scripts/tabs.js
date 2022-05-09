@@ -17,7 +17,7 @@ tabButtons.forEach((tabButton) => {
     const dataValue = tabButton.dataset.tabsHandler;
 
     changeContent(tabDescriptions, dataValue);
-    
+
     tabButtons.forEach((btn) => {
       if (btn === event.target) {
         btn.classList.add("menu-item_btn_active");
