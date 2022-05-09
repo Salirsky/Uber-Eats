@@ -149,6 +149,12 @@ body {
   transition: 0.3s ease all;
   cursor: pointer;
 }
+.menu-item_btn_active {
+  color: #043a02;
+  transition: 0.3s ease all;
+  cursor: pointer;
+  text-decoration: underline;
+}
 .line-menu {
   height: 0.3px;
   background-color: #d8d8d8;
@@ -440,7 +446,7 @@ body {
   transition: 0.3s ease all;
   color: #59bd5a;
 }
-.hideText {
+.hidden {
   display: none;
 }
 
