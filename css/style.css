@@ -184,12 +184,12 @@ body {
   margin-bottom: 32px;
   margin-left: 10px;
 }
-.snacks-cover {
+.food-cover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.snacks-card {
+.food-card {
   display: flex;
   justify-content: space-between;
   border-radius: 2px;
@@ -199,20 +199,20 @@ body {
   margin-bottom: 49px;
   max-height: 160px;
 }
-/* .snacks-card:last-child {
+/* .food-card:last-child {
     margin-bottom: 0;
 } */
-.snacks-card:hover {
+.food-card:hover {
   transition: 0.3s ease all;
   background: #fafafa;
 }
-.snacks-card_text {
+.food-card_text {
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.snacks-card_title {
+.food-card_title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -221,7 +221,7 @@ body {
   color: #1d1d1d;
   margin: 0;
 }
-.snacks-card_description {
+.food-card_description {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -231,7 +231,7 @@ body {
   margin: 0;
   padding-bottom: 35px;
 }
-.snacks-card_price {
+.food-card_price {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -240,7 +240,11 @@ body {
   color: #1d1d1d;
   margin: 0;
 }
-.snacks-card_img {
+/* .food-card_img {
+  max-height: 158px;
+  max-width: 160px;
+} */
+.food-card_img {
   max-height: 158px;
   max-width: 160px;
 }
