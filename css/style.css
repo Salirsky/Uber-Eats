@@ -277,6 +277,9 @@ body {
   background-color: rgba(46, 46, 46, 0.04);
   padding: 0 -8px 16px -8px;
   transition: 0.3s ease all;
+  border-radius: 30px;
+  filter: contrast(106%);
+  filter: brightness(1.15);
 }
 .restauran-card_link {
   text-decoration: none;
