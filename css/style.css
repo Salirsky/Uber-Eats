@@ -318,16 +318,13 @@ body {
 .footer {
   background-color: #262626;
 }
-
 .white-logo {
   display: block;
   padding: 56px 0 40px 10px;
 }
-#line {
-  /* width: 946px; */
+.line {
   height: 1px;
   background-color: #979797;
-  /* margin-left: 10px; */
   padding-left: -5px;
   padding-right: -5px;
 }
